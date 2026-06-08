@@ -8,6 +8,31 @@ Google Earth Engine workflows for agricultural monitoring, crop mapping, vegetat
 
 This repository contains Google Earth Engine scripts developed for agricultural applications using Sentinel-2 satellite imagery. The workflows support crop monitoring, vegetation assessment, district-level analysis, and agricultural decision-making through cloud-based geospatial processing.
 
+Workflow Diagram
+Sentinel-2 Collection
+          │
+          ▼
+Date & AOI Filtering
+          │
+          ▼
+Cloud Filtering
+          │
+          ▼
+Median Composite
+          │
+          ▼
+FCC Generation
+          │
+          ▼
+Vegetation Analysis
+(NDVI, NDRE, EVI, NDMI)
+          │
+          ▼
+District-Level Extraction
+          │
+          ▼
+Export GeoTIFF Outputs
+
 ## Key Features
 
 * Sentinel-2 preprocessing
